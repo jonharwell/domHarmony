@@ -32,10 +32,24 @@ data.appendChild(hobbiesBox);
 
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
 
+var locationBox = document.createElement('div');
+locationBox.id = 'location';
+locationBox.innerHTML = 'Honolulu, HI';
+data.appendChild(locationBox);
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
 
+var wantsBox = document.createElement('div');
+wantsBox.id = 'location';
+wantsBox.innerHTML = 'Looking for a Mr. McDonald';
+data.appendChild(wantsBox);
+
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
+
+var paragraph = document.createElement('p');
+paragraph.id = 'pro2';
+paragraph.innerHTML = 'Let me be the Big to your Mac. The Chicken to your McNugget. The Happy to your Meal';
+profile.appendChild(paragraph);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
